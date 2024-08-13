@@ -7,7 +7,7 @@ function redirectToSteam() {
     
     // Caso o redirecionamento falhe, o código continua e exibe uma mensagem de erro após um tempo.
     setTimeout(function() {
-        alert("Não foi possível redirecionar para o servidor automaticamente. Certifique-se de que o Steam está instalado e tente novamente.");
+        alert("Certifique-se que o CS:GO esteja aberto.");
     }, 1000); // Ajuste o tempo conforme necessário
 }
 
